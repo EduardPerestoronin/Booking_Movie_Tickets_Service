@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="CinemaBooking.Console/CinemaBooking.Console.csproj" Id="c1c17c6d-c59d-4c2c-b57a-65a61be13037" />
   <Project Path="Domain.Cinema_Booking/Domain.Cinema_Booking.csproj" />
   <Project Path="Domain.ValueObject/Domain.ValueObject.csproj" />
 </Solution>
