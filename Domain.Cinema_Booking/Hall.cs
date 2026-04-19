@@ -4,7 +4,7 @@ public class Hall
 {
     public Guid Id { get; private set; }
     public string Name { get; private set; }
-    public int TotalSeats { get; private set; }
+    public int TotalSeats { get; private set; } 
 
     private readonly List<Seat> _seats = new();
     public IReadOnlyCollection<Seat> Seats => _seats;
