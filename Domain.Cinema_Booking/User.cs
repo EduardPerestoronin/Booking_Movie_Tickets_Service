@@ -6,7 +6,7 @@ namespace Domain.Cinema_Booking;
 
 public class User
 {
-    public Guid Id { get; private set; }
+    public Guid Id { get; private set; } 
     public Username Username { get; private set; } 
     public Email Email { get; private set; }
     public DateTime CreatedAt { get; private set; }

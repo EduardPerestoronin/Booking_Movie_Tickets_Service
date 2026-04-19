@@ -9,7 +9,7 @@ public class SeatNumberValidator : IValidator<string>
     public static int MAX_SEAT => 30;
 
     public void Validate(string value)
-    {
+    { 
         if (string.IsNullOrWhiteSpace(value))
             throw new ArgumentNullOrWhiteSpaceException(nameof(value)); 
 

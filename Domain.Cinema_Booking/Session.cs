@@ -8,7 +8,7 @@ public class Session
     public Guid Id { get; private set; }
     public Movie Movie { get; private set; } 
     public Hall Hall { get; private set; }
-    public DateTime StartTime { get; private set; }
+    public DateTime StartTime { get; private set; } 
     public DateTime EndTime { get; private set; }
 
     private readonly List<Booking> _bookings = new();

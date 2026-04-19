@@ -8,7 +8,7 @@ public class Booking
     public User User { get; private set; } 
     public Session Session { get; private set; }
     public Seat Seat { get; private set; }
-    public DateTime CreatedAt { get; private set; }
+    public DateTime CreatedAt { get; private set; } 
     public DateTime ExpiresAt { get; private set; }
     public bool IsConfirmed { get; private set; }
 

@@ -8,7 +8,7 @@ public class MovieTitleValidator : IValidator<string>
     public static int MAX_LENGTH => 200;
 
     public void Validate(string value)
-    {
+    { 
         if (string.IsNullOrWhiteSpace(value))
             throw new ArgumentNullOrWhiteSpaceException(nameof(value));
          

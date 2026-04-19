@@ -8,7 +8,7 @@ public class UsernameValidator : IValidator<string>
     public static int MAX_LENGTH => 50;
     public static int MIN_LENGTH => 2;
 
-    public void Validate(string value)
+    public void Validate(string value) 
     { 
         if (string.IsNullOrWhiteSpace(value))
             throw new ArgumentNullOrWhiteSpaceException(nameof(value));
