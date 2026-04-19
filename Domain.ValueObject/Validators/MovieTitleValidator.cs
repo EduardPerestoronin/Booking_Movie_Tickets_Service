@@ -11,7 +11,7 @@ public class MovieTitleValidator : IValidator<string>
     {
         if (string.IsNullOrWhiteSpace(value))
             throw new ArgumentNullOrWhiteSpaceException(nameof(value));
-
+         
         if (value.Length > MAX_LENGTH)
             throw new ArgumentLongValueException(nameof(value), value, MAX_LENGTH);
     }

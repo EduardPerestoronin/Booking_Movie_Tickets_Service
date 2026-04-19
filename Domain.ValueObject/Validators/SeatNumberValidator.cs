@@ -11,7 +11,7 @@ public class SeatNumberValidator : IValidator<string>
     public void Validate(string value)
     {
         if (string.IsNullOrWhiteSpace(value))
-            throw new ArgumentNullOrWhiteSpaceException(nameof(value));
+            throw new ArgumentNullOrWhiteSpaceException(nameof(value)); 
 
         var parts = value.Split('-');
         if (parts.Length != 2)

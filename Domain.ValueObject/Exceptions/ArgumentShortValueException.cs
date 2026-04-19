@@ -4,5 +4,5 @@ public class ArgumentShortValueException(string paramName, string value, int min
     : FormatException($"The \"{paramName}\" length {value.Length} less than minimum allowed length {minLength}")
 {
     public string Value => value;
-    public int MinLength => minLength;
+    public int MinLength => minLength; 
 }

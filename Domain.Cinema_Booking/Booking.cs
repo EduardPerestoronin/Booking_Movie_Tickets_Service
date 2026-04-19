@@ -5,7 +5,7 @@ namespace Domain.Cinema_Booking;
 public class Booking
 {
     public Guid Id { get; private set; }
-    public User User { get; private set; }
+    public User User { get; private set; } 
     public Session Session { get; private set; }
     public Seat Seat { get; private set; }
     public DateTime CreatedAt { get; private set; }

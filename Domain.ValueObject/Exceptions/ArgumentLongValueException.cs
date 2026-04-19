@@ -5,4 +5,4 @@ public class ArgumentLongValueException(string paramName, string value, int maxL
 {
     public string Value => value;
     public int MaxLength => maxLength;
-}
+} 

@@ -7,7 +7,7 @@ public class Movie
     public Guid Id { get; private set; }
     public MovieTitle Title { get; private set; }
     public string Description { get; private set; }
-    public int DurationMinutes { get; private set; }
+    public int DurationMinutes { get; private set; } 
     public DateTime CreatedAt { get; private set; }
 
     protected Movie() { }

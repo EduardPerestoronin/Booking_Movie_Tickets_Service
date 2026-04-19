@@ -8,7 +8,7 @@ public class Hall
 
     private readonly List<Seat> _seats = new();
     public IReadOnlyCollection<Seat> Seats => _seats;
-
+     
     protected Hall() { }
 
     public Hall(Guid id, string name, int totalSeats)

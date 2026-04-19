@@ -5,7 +5,7 @@ namespace Domain.Cinema_Booking;
 public class Seat
 {
     public Guid Id { get; private set; }
-    public Hall Hall { get; private set; }
+    public Hall Hall { get; private set; } 
     public int Row { get; private set; }
     public int Number { get; private set; }
 

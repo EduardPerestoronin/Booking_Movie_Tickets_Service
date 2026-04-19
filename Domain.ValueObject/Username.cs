@@ -5,5 +5,5 @@ namespace Domain.ValueObject;
 
 public class Username : ValueObject<string>
 {
-    public Username(string username) : base(new UsernameValidator(), username) { }
+    public Username(string username) : base(new UsernameValidator(), username) { } 
 }

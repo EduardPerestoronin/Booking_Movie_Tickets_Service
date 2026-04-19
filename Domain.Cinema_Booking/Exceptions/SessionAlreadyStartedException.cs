@@ -5,4 +5,4 @@ public class SessionAlreadyStartedException(Guid sessionId, DateTime startTime)
 {
     public Guid SessionId => sessionId;
     public DateTime StartTime => startTime;
-}
+} 

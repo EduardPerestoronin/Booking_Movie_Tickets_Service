@@ -7,7 +7,7 @@ namespace Domain.ValueObject.Validators;
 public partial class EmailValidator : IValidator<string>
 {
     public static int MAX_LENGTH => 100;
-    public static int MIN_LENGTH => 5;
+    public static int MIN_LENGTH => 5; 
 
     public void Validate(string value)
     {
