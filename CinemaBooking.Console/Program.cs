@@ -6,7 +6,7 @@ using static System.Collections.Specialized.BitVector32;
 
 class Program
 {
-    static void Main()
+    static void Main() 
     {
         // Данные
         var user = new User(Guid.NewGuid(), new Username("Алексей"), new Email("alex@mail.ru"), DateTime.UtcNow);
